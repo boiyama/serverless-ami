@@ -1,0 +1,31 @@
+service: ami
+
+plugins:
+  - serverless-webpack
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  region: ${file(./constants.js):constants.AWS_REGION}
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - ec2:DescribeInstances
+        - ec2:CreateImage
+        - ec2:CreateTags
+        - ec2:DescribeImages
+        - ec2:DeregisterImage
+        - ec2:DeleteSnapshot
+      Resource: "*"
+
+functions:
+  createAMI:
+    handler: handler.createAMI
+
+  deleteAMI:
+    handler: handler.deleteAMI
+
+  createAndDeleteAMI:
+    handler: handler.createAndDeleteAMI
+    events:
+      - schedule: ${file(./constants.js):constants.INVOCATION_SCHEDULE}

@@ -1,0 +1,24 @@
+{
+  "name": "serverless-ami",
+  "version": "1.0.0",
+  "description": "Automate AMI operation with Serverless Framework",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.7.19"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-babili": "^0.0.9",
+    "babel-preset-env": "^1.1.4",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "serverless-webpack": "^1.0.0-rc.3",
+    "webpack": "^1.14.0"
+  }
+}

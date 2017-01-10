@@ -1,0 +1,10 @@
+{
+  "presets": [
+    ["env", {
+      /* AWS Lambda Execution Environment */
+      "targets": { "node": "4.3.2" },
+      "include": ["transform-es2015-destructuring"]
+    }],
+    "babili"
+  ]
+}

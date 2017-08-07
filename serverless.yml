@@ -1,11 +1,13 @@
 service: ami
 
+frameworkVersion: ">=1.10.0 <2.0.0"
+
 plugins:
   - serverless-webpack
 
 provider:
   name: aws
-  runtime: nodejs4.3
+  runtime: nodejs6.10
   region: ${file(./constants.js):constants.AWS_REGION}
   iamRoleStatements:
     - Effect: Allow

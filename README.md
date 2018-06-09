@@ -1,5 +1,7 @@
 # Automate AMI operation with Serverless Framework
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/boiyaa/serverless-ami.svg)](https://greenkeeper.io/)
+
 * [Install Serverless Framework](https://serverless.com/framework/docs/providers/aws/guide/installation/) and [set-up credentials](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
 * Run `serverless install --url https://github.com/boiyaa/serverless-ami` to install this service
 * Run `cd serverless-ami`

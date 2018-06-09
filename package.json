@@ -9,16 +9,16 @@
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
-    "babel-loader": "^6.2.10",
-    "babel-preset-babili": "^0.0.9",
+    "babel-loader": "^7.1.4",
+    "babel-preset-babili": "^0.1.4",
     "babel-preset-env": "^1.1.4",
-    "eslint": "^3.9.1",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-loader": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^2.0.0",
     "eslint-plugin-import": "^2.1.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.6.0",
-    "serverless-webpack": "^1.0.0-rc.3",
-    "webpack": "^1.14.0"
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "serverless-webpack": "^5.1.5",
+    "webpack": "^4.12.0"
   }
 }

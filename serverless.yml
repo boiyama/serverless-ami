@@ -7,7 +7,7 @@ plugins:
 
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejs10.x
   region: ${file(./constants.js):constants.AWS_REGION}
   iamRoleStatements:
     - Effect: Allow
